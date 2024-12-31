@@ -15,6 +15,7 @@ class BasicGameView(tk.Frame):
         reset_button = tk.Button(self, text="Reset", command=self.reset)
         reset_button.grid(column=2, row=0, columnspan=3)
 
+
         # Initialize and pack the entries
         for row in range(6):
             entry = tk.Entry(self, width=15, font=("Helvetica", 40))
